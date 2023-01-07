@@ -15,6 +15,9 @@
 # numbers = list(range(1, 6))  # генерим список с помощью range
 # print(numbers)
 
+#list(range(0, 10, 2)) #выводит все четные числа
+#list(range(1, 10, 2)) #выводит все НЕчетные числа
+
 # numbers[0] = 12  # замена значений
 # print(numbers)
 
