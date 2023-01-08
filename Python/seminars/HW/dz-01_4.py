@@ -4,3 +4,16 @@
 #
 # - 1 -> x > 0, y > 0
 # - 8 -> нет такой четверти
+
+n = int(input())
+
+if n == 1:
+    print("x > 0, y > 0")
+elif n == 2:
+    print("x < 0, y > 0")
+elif n == 3:
+    print("x < 0, y < 0")
+elif n == 4:
+    print("x > 0, y < 0")
+else:
+    print ("Нет такой четверти")
