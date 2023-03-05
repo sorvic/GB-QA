@@ -1,0 +1,88 @@
+lesson-01:
+
+В html можно символы вставлять в виде кода, таблица символов unicode:
+https://unicode-table.com/ru/
+http://foxtools.ru/Unicode
+
+Как работает шифрование (и ssl в частности):
+https://youtu.be/YtFM-smD9fQ
+
+Сайт, где можно сделать прототип низкой детализации:
+https://wireframe.cc/
+
+Бесплатные SSL-сертификаты
+https://letsencrypt.org/ru/
+
+---------------------------------------------
+lesson-02:
+
+lorem = вставляет РыбаТекст
+loremru10 - вставляет русский текст (10 слов)
+
+ctrl+z - разобьет текст на строки в VSCode
+
+Open in Browser - расширение,
+чтобы открывать в браузере (Alt+B / Option+B)
+
+Live Server - расширение,
+внизу нажимаем "Go Live" - запускает сервер и автоматом код перезапускается
+
+Shift+Alt+F - форматирование текста
+
+Cmd+d (Ctrl+d) - выделение нескольких похожих элементов
+
+ul>li*3 - позволяет сразу создать рыбу списка из 3-ех пунктов
+
+Emmet Documentation:
+https://docs.emmet.io
+
+Шрифты
+https://ffont.ru
+https://fonts.google.com
+
+HTML Справочник всех тегов онлайн и примеры:
+https://html5css.ru/tags/default.php
+
+CSS Справочник примеры и элементы
+https://html5css.ru/cssref/default.php
+
+Bootstrap 5. Документация на русском языке: Вступление:
+https://bootstrap-4.ru/docs/5.2/getting-started/introduction/
+
+Bootstrap 4 Учебник Справочник на русском примеры
+https://html5css.ru/bootstrap4/default.php
+
+Markup Validation Service
+https://validator.w3.org
+
+Punto Switcher
+https://yandex.ru/soft/punto/win/index
+
+РыбаТекст
+https://fish-text.ru
+
+---------------------------------------------
+lesson-03:
+Допустим сайт у нас такой
+https://site.ru/goods/phone
+
+Слэш в начале ссылки имеет значений!
+<script src="scripts/script.js></script>
+https://site.ru/goods/scripts/script.js
+<script src="/scripts/script,js></script>
+https://site.ru/scripts/script.js
+
+<script src="main.js"></script>
+рекомендуют ставить ссылку на скрипт перед закрывающим тегом </body>
+Чтобы код прогрузился и потом уже срабатывал js
+
+Но сейчас используют так - размещая перед </head>
+<script src="main.js" defer></script>
+defer - указывает, что запускаем скрипт после прогрузки всего кода
+
+
+---------------------------------------------
+lesson-04:
+
+---------------------------------------------
+lesson-05:
