@@ -9,6 +9,6 @@
 
 const degrees = Number.parseFloat(prompt('Введите температуру по Цельсию'));
 
-let Fahrenheit = 9 / 5 * degrees + 32
+let Fahrenheit = 9 / 5 * degrees + 32;
 
 alert(`Цельсий: ${degrees}, Фаренгейт: ${Fahrenheit.toFixed(1)}`)
