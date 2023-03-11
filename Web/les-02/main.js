@@ -100,8 +100,33 @@ function getMaxEvenElement(arr) {
             max = arr[i];
         }
     }
-    return max
+    return max;
 }
 
-console.log(getMaxEvenElement([5, 7, -1, 12, 3, 0])) // 5
-console.log(getMaxEvenElement([4, -12, 29, 6, 31, 92, -50])) // 31
+console.log(getMaxEvenElement([5, 7, -1, 12, 3, 0])); // 5
+console.log(getMaxEvenElement([4, -12, 29, 6, 31, 92, -50])); // 31
+
+
+
+/* Задача с реального собеседования
+Один покупатель старинных уникальных часов хочет приоьбрести для музея двое часов. В магазине у хозяйки есть n разныч часов с соответствующими ценами [p1, ..., pn]. Покупатель хочет полностью использовать свой бюджет. Необходимо выяснить получится ли это.
+
+ОКРУГЛЕНИЕ
+Math.trunc - позволяет отбросить всю дробную часть
+А умножив на 100 мы избавились от дробных сотых и разделив - вернули обратно
+Math.round - математическое округление
+*/
+function f(clockArr, money) {
+    for (let i = 0; i < clockArr.length - 1; i++) {
+        for (let j = i + 1; j < clockArr.length; j++) {
+            if (money == Math.trunc((clockArr[i] + clockArr[j]) * 100) / 100) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+console.log(f([8.74, 3.12, 9.50, 2.35], 2.35)); // false
+console.log(f([1.1, 4.2, 7.5, 0.4], 8.4)); // false
+console.log(f([54.10, 20.00, 18.51, 97.75, 35.20, 76.42], 89.3)); // true
