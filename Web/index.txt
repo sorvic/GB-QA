@@ -14,7 +14,7 @@ https://wireframe.cc/
 https://letsencrypt.org/ru/
 
 ---------------------------------------------
-lesson-02:
+lesson-02: HTML/CSS
 
 lorem = вставляет РыбаТекст
 loremru10 - вставляет русский текст (10 слов)
@@ -62,7 +62,7 @@ https://yandex.ru/soft/punto/win/index
 https://fish-text.ru
 
 ---------------------------------------------
-lesson-03:
+lesson-03: JavaScript
 Допустим сайт у нас такой
 https://site.ru/goods/phone
 
@@ -82,7 +82,49 @@ defer - указывает, что запускаем скрипт после п
 
 
 ---------------------------------------------
-lesson-04:
+lesson-04: PHP / MySQL
+https://rextester.com/l/php - песочница для кода
+<?php 
+echo 'Привет мир'
+?>
+
+https://onecompiler.com - песочница для SQL
+
+less-04.png - как работают сайты и в какой момент что включается
+
+https://paiza.io/en/projects/new - песочница для кода
+https://pastebin.com
+
+Можно писать так
+<?php echo $skills[$i]['percent'].'%'; ?>
+.'%' - это конкатенация
+и так
+<?=$skills[$i]['percent']; ?>
+
 
 ---------------------------------------------
 lesson-05:
+РАСШИРЕНИЕ:
+REST Client - создаем файл test.http,
+пишем в коде команду и сайт и нажимаем кнопку, смотрим ответ
+
+https://reqres.in - сайт для тестировани API (предоставляет тестовые данные)
+
+https://www.postman.com
+Хорошая прога для тестировщиков API
+
+Тестирование API c postman: 
+https://www.youtube.com/watch?v=zfrQtU8eCEo
+https://gb.ru/posts/kak-testirovat-api-ili-postman-dlya-chajnikov
+
+Тестирование API c postman:
+https://www.youtube.com/watch?v=zfrQtU8eCEo
+
+На степике:
+https://stepik.org/course/120679/info
+
+Еще инфо:
+https://academy.yandex.ru/handbook/python/article/potokovyj-vvodvyvod-rabota-s-tekstovymi-fajlami-json
+
+
+https://jsonformatter.org/ - gtcjxybwf

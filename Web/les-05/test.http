@@ -1,0 +1,16 @@
+GET https://nalog.ru
+// получаем запрос сайта
+
+
+###
+GET https://reqres.in/api/users?page=2
+// получаем запрос второй страницы с пользователями
+
+###
+POST https://reqres.in/api/users
+
+Content-Type: application/application/json
+{
+    "name": "morpheus",
+    "job": "leader"
+}

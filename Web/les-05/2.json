@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "product": "Яблоко",
+            "weight": 1000,
+            "group": "Фрукты",
+            "price": 150,
+            "warehouse": 1
+        },
+        {
+            "product": "Картошка ранняя",
+            "weight": 5000,
+            "group": "Овощи",
+            "price": 320,
+            "warehouse": 2
+        }
+    ],
+    "data2": [
+        {
+            "firstname": "Иван",
+            "lastname": "Иванов",
+            "age": 37,
+            "hobby": [
+                "рыбалка",
+                "охота",
+                "футбол"
+            ],
+            "married": true,
+            "children": [
+                "Николай",
+                "Мария"
+            ]
+        },
+        {
+            "firstname": "Ольга",
+            "lastname": "Фролова",
+            "age": 21,
+            "hobby": [
+                "путешествие",
+                "вышивание"
+            ],
+            "married": false,
+            "children": []
+        }
+    ]
+}
